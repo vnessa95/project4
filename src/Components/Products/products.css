@@ -61,11 +61,8 @@
     
     
     .item {
-        padding: 25px;
-        box-shadow: 0 6px 30px 0 #EC929A;
-        background-color: whitesmoke;
         text-align: center;
-        display: none; /* Hide all elements by default */
+        /* display: none; Hide all elements by default */
       }
       
 
@@ -98,19 +95,8 @@
         cursor: pointer;
         letter-spacing: 5px;
       }
-      
-      .show {
-        display: block;
-      }
-    
-    .items {
-      display: grid;
-    
-      }
-
-     
+ 
     .itemimg{
-      background: url('/img/yoga-mat-1.jpg');
       width: 40%;
       height: auto;
     }

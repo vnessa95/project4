@@ -9,11 +9,12 @@ function Products() {
                 {Data.map((items, index)=> {
                     return (
 
-                        <div className="items">
-                            <div className="imgcards">  </div>
-                            <div className="iteminfo">
+                        <div className="itemmm">
+                            <div className="itemm">  </div>
+                            <div className="item">
+                            <img className="itemimg"src={items.URL}/>
                                 <h4> {items.name} </h4>
-                                <h3> {items.price} </h3>
+                                <h3> ${items.price}.00 </h3>
                                 <p> {items.description} </p>
                                 <button className="shopbtn">Buy Now</button>
                             </div>
