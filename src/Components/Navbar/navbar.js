@@ -13,9 +13,9 @@ class Navbar extends Component {
 <img class="logo" src="img/TheFloralYogi-Logo.png" alt="logo"/>
 <nav>
     <ul class="contact-nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="home.js">Home</a></li>
+        <li><a href="products.js">Products</a></li>
+        <li><a href="contact.js">Contact</a></li>
     </ul>
 </nav>
 </header>
