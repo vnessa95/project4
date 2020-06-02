@@ -12,75 +12,26 @@
     color: whitesmoke;
     
     }
-    
-    /* nav */
-     
-      
-    .logo {
-        width: 300px;
-        height: 300px;
-        cursor: pointer;
-        padding-top: 20px;
-      }
-      
-      .shop-nav{
-        list-style: none;
-        
-      }
-      
-      .shop-nav li{
-        display: inline-block;
-      }
-      
-      .shop-nav li a{
-        transition: all 0.3s ease 0s;
-        font-family: 'Spicy Rice', cursive;
-        font-size: 16px;
-        color: whitesmoke;
-        text-decoration: none;
-        padding: 10px;
-      }
-      .shop-nav li a:hover{
-        background-color: #EC929A;
-        color: #FBFBFA;
-        
-      }
-      
-      header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 9px 10% ;
-        height: 150px;
-      }
-    
-    
-    
-    /* shopping */
-    /* Add padding BETWEEN each column */
-    
-    
-    .item {
-        text-align: center;
-        /* display: none; Hide all elements by default */
-      }
-      
+  
+   
+.item {
+  padding: 25px;
+  background-color:  rgb(48, 46, 46);;
+  text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    box-shadow: 0 6px 30px 0 whitesmoke;
+  
+    }
 
-
+        .items{
+          display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 5px;
+        padding: 25px;
+        } 
     
-    
-      /* Clear floats after rows */ 
-      .items:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-      
-      /* Content */
-      .content {
-        background-color: whitesmoke;
-        padding: 10px;
-      }
       
   
     .shopbtn {
@@ -88,7 +39,7 @@
         border:none;
         margin-top: 15px;
         padding: 10px;
-        background: #EC929A;
+        background: rgb(81, 122, 81);
         color: whitesmoke;
         text-transform: uppercase;
         font-family: 'Oswald', sans-serif;
@@ -97,24 +48,37 @@
       }
  
     .itemimg{
-      width: 40%;
-      height: auto;
+      width: 105px;
+      height: 105px
     }
     
     
-    h1{
-        text-align: center;
-        font-size: 85px;
-        color: #EC929A;
-     } 
+ 
     
-     div h1{
+     .heading{
        text-align: center;
        font-family: 'Oswald', sans-serif;
        color:whitesmoke;
-       padding: 20px;
-       border: #EC929A 2px solid;
+       padding: 25px;
+       text-align: center;
+       font-size: 85px;
+       font-weight: 900;
+      
      }
+
+     .heading:before{
+       margin-left: 20%;
+       display: block;
+      border: rgb(81, 122, 81) 2px dotted;
+       content: "";
+     }
+
+     .heading:after{
+      margin-right: 20%;
+      display: block;
+     border: rgb(81, 122, 81) 2px dotted;
+      content: "";
+    }
     
      span p{
       text-align: center;
@@ -123,75 +87,13 @@
       font-weight: lighter;
       margin-top: 25px;
       font-size: 30px;
-    
      }
-    
-     /* footer styles */
-    
-     .shop-footer-distributed .footer-icon p {
-        color: #FBFBFA;
-        font-size: 14px;
-        margin: 0;
-      }
-      
-      .shop-footer-distributed {
-        width: 100%;
-        height: auto;
-        font: normal 16px sans-serif;
-        padding: 45px 50px;
-        display: inline-block;
-        background: #EC929A;
-        text-align: center;
-        font-size: 22px;
-        font-weight: 700;
-        padding: 10px;
-      }
-      
-      .shop-footer-distributed p.footer-links {
-        font-size: 18px;
-        font-weight: bold;
-        color: #FBFBFA;
-        margin: 0 0 10px;
-        padding: 0;
-        transition: ease .25s;
-        padding-top: 10px;
-      }
-      
-      .shop-footer-distributed p.footer-links a {
-        display: inline-block;
-        line-height: 1.8;
-        text-decoration: none;
-        color: inherit;
-        transition: ease .25s;
-      }
-      
-      .shop-footer-distributed .footer-links a:before {
-        content: "·";
-        font-size: 20px;
-        left: 0;
-        color: #FBFBFA;
-        display: inline-block;
-        padding-right: 5px;
-      }
-      
-      
-      .shop-footer-distributed .footer-link a {
-        display: inline-block;
-        width: 45px;
-        height: 45px;
-        background-color: #EC929A;
-        border-radius: 2px;
-        font-size: 30px;
-        color: #FBFBFA;
-        text-align: center;
-        line-height: 45px;
-        margin-left: 3px;
-        transition:all .25s;
-      }
-      
-      .shop-contact-footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
-      
-      .shop-contact-footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+     div h4{
+       text-transform: uppercase;
+     }
+
+     
      
     
       /* media querries */
