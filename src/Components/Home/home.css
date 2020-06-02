@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+body{
+    font-family: Verdana;
+    color: grey;
+    background-color: rgb(48, 46, 46);
+
+}
+/* theWhy */
+#quote h2{
+ font-size: 18px;
+ color: rgb(206, 173, 24);
+ text-emphasis: left;
+ font-family: 'Oswald', sans-serif;
+ padding: 45px;
+ text-align: center;
+}
+
+
+#quote:before {
+  border:whitesmoke 2px solid;
+  display: block;
+  content: "";
+}
+
+#quote:after{
+  border: whitesmoke 2px solid;
+  display: block;
+  content: "";
+}
+ 
+   /* SLIDESHOW */
+   .slide-container {
+    width: 80%;
+    margin: auto; 
+  }
+  
+  h3 {
+    text-align: center; }
+  
+    .each-slide > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 80vh;
+      background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 500px; 
+    }
+  
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: whitesmoke;
+    text-align: center;
+  }
+  
+  .each-fade {
+    display: flex;
+  }
+  
+  .each-fade .image-container {
+    width: 75%;
+    overflow: hidden;
+  }
+  
+  .each-fade .image-container img {
+    width: 100%;
+  }
+  
+  .each-fade h2 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #adceed;
+  }
+
+
+
+/* media querries */
+@media screen and (max-width: 1020px) { /* Large Desktop */ }
+@media screen and (max-width: 780px) { /* tablet */ }
+@media screen and (max-width: 480px) { /* mobile */ }
