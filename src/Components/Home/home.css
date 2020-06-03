@@ -111,9 +111,8 @@ body{
 #container {
   background: 
     linear-gradient(
-      rgb(81, 122, 81),
-      #a33f76a9, 
-      #b4852eb4
+      rgba(0, 0, 0, 0),
+     rgba(0, 0, 0, 0.747)
     ),
     url(/img/YogaNR.jpg);
     background-size:     cover;                      /* <------ */
