@@ -1,3 +1,6 @@
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -14,23 +17,34 @@ body{
 
 }
 /* theWhy */
-#quote h2{
- font-size: 18px;
- color: rgb(206, 173, 24);
+.quote{
+ font-size: 38px;
+ color: whitesmoke;
  text-emphasis: left;
- font-family: 'Oswald', sans-serif;
- padding: 45px;
+ font-family: 'Gloria Hallelujah', cursive;
  text-align: center;
+ padding-top: 45px;
+}
+
+.bigquote{
+  color :rgb(206, 173, 24);
+  font-size: 150px;
+  font-family: 'Passion One', cursive;
+}
+
+.bigcap{
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 
-#quote:before {
+.quote:before {
   border:whitesmoke 2px solid;
   display: block;
   content: "";
 }
 
-#quote:after{
+.quote:after{
   border: whitesmoke 2px solid;
   display: block;
   content: "";
@@ -40,6 +54,7 @@ body{
    .slide-container {
     width: 80%;
     margin: auto; 
+    
   }
   
   h3 {
@@ -90,3 +105,46 @@ body{
 @media screen and (max-width: 1020px) { /* Large Desktop */ }
 @media screen and (max-width: 780px) { /* tablet */ }
 @media screen and (max-width: 480px) { /* mobile */ }
+
+
+
+#container {
+  background: 
+    linear-gradient(
+      rgb(81, 122, 81),
+      #a33f76a9, 
+      #b4852eb4
+    ),
+    url(/img/YogaNR.jpg);
+    background-size:     cover;                      /* <------ */
+background-repeat:   no-repeat;
+background-position: center center;
+height: 100%;
+}
+
+#info-container{
+  position: flex;
+  background: whitesmoke;
+  width: 30%;
+  height: 100%;
+  margin: auto;
+  padding: 15px;
+}
+
+#info-container h2{
+  color: black;
+  padding: 45px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+#info-container p{
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+#info-container span {
+  font-weight: normal;
+}
