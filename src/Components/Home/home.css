@@ -147,3 +147,16 @@ height: 100%;
 #info-container span {
   font-weight: normal;
 }
+
+.three-dots {
+  text-align: center;
+}
+
+.three-dots span {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgb(206, 173, 24);
+  display: inline-block;
+  margin: 0 15px;
+}
