@@ -9,7 +9,7 @@ function Products() {
     return (
         <div className="Products">
             <div className="wrapper">
-                <h1 className="heading">Shop NOW</h1>
+                <h1 className="heading">Shop <span>now</span></h1>
                 <div className="items">
                     <div className="item">
                         {Data.map((items) => {

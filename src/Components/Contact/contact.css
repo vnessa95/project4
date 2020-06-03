@@ -13,6 +13,13 @@ body{
 }
 
 
+footer img{
+  cursor: pointer;
+  width: 280px;
+  height: 250px;
+  float: left;
+  
+}
 
 
 
@@ -98,17 +105,12 @@ label{
 
 /* footer */
 
-.contact-footer-distributed .footer-icon p {
-  color: whitesmoke;
-  font-size: 14px;
-  margin: 0;
-}
+
 
 .contact-footer-distributed {
   width: 100%;
   height: auto;
   font: normal 16px sans-serif;
-  padding: 45px 50px;
   display: inline-block;
   background: rgb(31, 30, 30);
   text-align: center;
@@ -117,32 +119,13 @@ label{
   padding: 10px;
 }
 
-.contact-footer-distributed p.footer-links {
-  font-size: 18px;
-  font-weight: bold;
-  color: whitesmoke;
-  margin: 0 0 10px;
-  padding: 0;
-  transition: ease .25s;
-  padding-top: 10px;
+
+.footer-link{
+  float: right;
+  margin-right: 50px;
 }
 
-.contact-footer-distributed p.footer-links a {
-  display: inline-block;
-  line-height: 1.8;
-  text-decoration: none;
-  color: inherit;
-  transition: ease .25s;
-}
 
-.contact-footer-distributed .footer-links a:before {
-  content: "·";
-  font-size: 20px;
-  left: 0;
-  color: whitesmoke;
-  display: inline-block;
-  padding-right: 5px;
-}
 
 
 .contact-footer-distributed .footer-link a {
@@ -154,14 +137,11 @@ label{
   font-size: 30px;
   color: whitesmoke;
   text-align: center;
-  line-height: 45px;
   margin-left: 3px;
   transition:all .25s;
+ margin-top: 65px;
 }
 
-.contact-footer-distributed .footer-right a:hover{transform:scale(1.1);}
-
-.contact-footer-distributed p.footer-links a:hover{text-decoration:underline;}
 
 
 /* media querries */
