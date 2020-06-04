@@ -12,7 +12,7 @@ class Contact extends Component {
                 <div id="error"></div>
                 <form id="myForm" onsubmit="validate()">
 
-                    <div id="contact-pic-wrapper"> <img id="contact-pic" src="img/IMG_20200518_155219_583.jpg" alt="full-lotus" /></div>
+                    <div id="contact-pic-wrapper"> <img id="contact-pic" src="/img/photo-1515332624078-a1273bf79707.jpeg" alt="good-vibes"/></div>
 
                     <div class="contact-wrapper">
                         <h2>Talk to me!</h2>

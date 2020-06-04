@@ -148,6 +148,12 @@ height: 100%;
   font-weight: normal;
 }
 
+#border{
+  border: rgb(206, 173, 24) solid 5px;
+}
+
+
+
 .three-dots {
   text-align: center;
 }
@@ -160,3 +166,4 @@ height: 100%;
   display: inline-block;
   margin: 0 15px;
 }
+

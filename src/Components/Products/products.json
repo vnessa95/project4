@@ -1,6 +1,7 @@
 
     [
         {
+            
             "URL":"img/yoga-mat-1.jpg",
             "name": "eko® yoga mat 6mm",
             "price": 92.00,
@@ -14,15 +15,15 @@
         },
         {
             "URL":"img/yoga-mat-3.jpg",
-            "name": "prolite® yoga mat 4.7mm",
-            "price": 96.00,
+            "name": "prolite® yoga mat 9.3mm",
+            "price": 92.00,
             "description": "Bring the heat. Lose the towel. No matter how much you sweat, The Manduka GRP delivers supreme traction with no slip."
         },
         {
             "URL":"img/item1.jpg",
-            "name": "enlight™ rectangular bolster",
+            "name": "enlight™ rectangle bolster",
             "price": 68.00,
-            "description": "With its space-saving rectangular shape, Manduka’s enlight™ Rectangular Bolster features 30% recycled fiber-fill to create a firm cushion that provides superior support and cushioning, and sustainable. The rectangular bolster has a removable cover with hidden a zipper and made from our plush, soft and absorbent eQua mico-fiber fabric."
+            "description": "With its space-saving rectangale shape, Manduka’s enlight™ Rectangular Bolster features 30% recycled fiber-fill to create a firm cushion that provides superior support and cushioning, and sustainable. The rectangular bolster has a removable cover with hidden a zipper and made from our plush, soft and absorbent eQua mico-fiber fabric."
         },
         {
             "URL":"img/item2.jpg",
@@ -33,7 +34,7 @@
         {
             "URL":"img/item3.jpg",
             "name": "enlight™ lean bolster",
-            "price": 56.00,
+            "price": 68.00,
             "description": "he enlight lean bolster is a lightweight, classic, round bolster featuring a resilient, long lasting fiber-fill to create a firm cushion that provides superior support. Soft, plush, absorbent eQua micro-fiber fabric cover keeps you dry and comfortable. Hidden zipper construction for a smooth, seamless finish."
         },
         {
@@ -45,30 +46,30 @@
         {
             "URL":"img/block2.jpg",
             "name": "recycled foam yoga block",
-            "price": 15.00,
+            "price": 6.00,
             "description": "Between 50% to 75% of each block is guaranteed to contain a mixture of postindustrial and post-consumer recycled EVA foam without compromising durability or performance."
         },
         {
             "URL":"img/block3.jpg",
-            "name": "unblok recycled foam yoga block",
+            "name": "unblok foam yoga block",
             "price": 24.00,
             "description": "Recycled Foam unBLOK, with its functional, sleek design, and high-quality eco-friendly materials, this revolutionary block will help you unBLOK your practice this year. Great investment."
         },
         {
             "URL":"img/wash.jpg",
-            "name": "mat cleanser - for natural mats",
-            "price": 6.50,
+            "name": "mat cleanser",
+            "price": 7.00,
             "description": "A vinegar-based cleaner designed to clean and restore your natural rubber mat."
         },
         {
             "URL":"img/wa.jpg",
-            "name": "mat cleanser - for all mats",
+            "name": "mat cleanser",
             "price": 14.00,
             "description": "This all-purpose cleaner leaves your yoga mat smelling organically fresh"
         },
         {
             "URL":"img/mat3.jpg",
-            "name": "mat cleanser - for grp mats",
+            "name": "mat cleanser",
             "price": 14.00,
             "description": "Keep your mat feeling & smelling fresh with our Everyday Mat Cleanser. "
         }
