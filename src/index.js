@@ -16,7 +16,6 @@ ReactDOM.render(
     <Navbar />
      <Home />
      <Slideshow />
-     
     <Products />
     <Contact />
    
